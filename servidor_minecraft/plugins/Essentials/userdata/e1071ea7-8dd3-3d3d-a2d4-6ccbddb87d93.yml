@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1728697099493
+  login: 1728697092821
+money: '0'
+last-account-name: Kevinlucas323
+logoutlocation:
+  world: ab2be998-d7e9-4b57-8e77-19bbbee6b912
+  world-name: world
+  x: 10.702433399473177
+  y: 79.0
+  z: 2.5029491412512423
+  yaw: 139.4908905029297
+  pitch: 19.879955291748047

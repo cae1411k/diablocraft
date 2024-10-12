@@ -1,81 +1,58 @@
-[23:17:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[23:17:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[23:17:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[23:17:31] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
-[23:17:31] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_422, running on Linux:amd64:6.8.0-1014-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[23:17:31] [main/INFO] [FML]: Searching /workspaces/testing/servidor_minecraft/./mods for mods
-[23:17:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:17:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[23:17:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:17:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:17:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:17:33] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[23:17:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:17:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[23:17:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[23:17:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[23:17:33] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[23:17:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[23:17:35] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
-[23:17:35] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[23:17:36] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[23:17:36] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[23:17:36] [Server thread/INFO] [FML]: Config directory created successfully
-[23:17:36] [Server thread/INFO] [FML]: Searching /workspaces/testing/servidor_minecraft/./mods for mods
-[23:17:36] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
-[23:17:36] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[23:17:37] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
-[23:17:37] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
-[23:17:37] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[23:17:37] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[23:17:37] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[23:17:37] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[23:17:37] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[23:17:37] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[23:17:37] [Server thread/INFO] [FML]: Applying holder lookups
-[23:17:37] [Server thread/INFO] [FML]: Holder lookups applied
-[23:17:37] [Server thread/INFO] [FML]: Applying holder lookups
-[23:17:37] [Server thread/INFO] [FML]: Holder lookups applied
-[23:17:37] [Server thread/INFO] [FML]: Applying holder lookups
-[23:17:37] [Server thread/INFO] [FML]: Holder lookups applied
-[23:17:37] [Server thread/INFO] [FML]: Applying holder lookups
-[23:17:37] [Server thread/INFO] [FML]: Holder lookups applied
-[23:17:37] [Server thread/INFO] [FML]: Injecting itemstacks
-[23:17:37] [Server thread/INFO] [FML]: Itemstack injection complete
-[23:17:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[23:17:37] [Server thread/WARN] [net.minecraft.server.dedicated.PropertyManager]: server.properties does not exist
-[23:17:37] [Server thread/INFO] [net.minecraft.server.dedicated.PropertyManager]: Generating new properties file
-[23:17:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[23:17:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[23:17:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[23:17:37] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[23:17:37] [Server thread/INFO] [FML]: Applying holder lookups
-[23:17:37] [Server thread/INFO] [FML]: Holder lookups applied
-[23:17:37] [Server thread/INFO] [FML]: Injecting itemstacks
-[23:17:37] [Server thread/INFO] [FML]: Itemstack injection complete
-[23:17:38] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[23:17:38] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
-[23:17:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[23:17:38] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5a67fbb3)
-[23:17:38] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[23:17:39] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5a67fbb3)
-[23:17:39] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5a67fbb3)
-[23:17:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[23:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 11%
-[23:17:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%
-[23:17:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 36%
-[23:17:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 52%
-[23:17:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 74%
-[23:17:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 99%
-[23:17:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (8.023s)! For help, type "help" or "?"
-[23:17:46] [Server thread/INFO] [FML]: Unloading dimension -1
-[23:17:46] [Server thread/INFO] [FML]: Unloading dimension 1
-[23:17:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[23:17:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[23:17:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[23:17:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[23:17:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[23:17:53] [Server thread/INFO] [FML]: Unloading dimension 0
-[23:17:53] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[23:17:53] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[23:17:53] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[18:17:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[18:17:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-120-master@57c75a4 (2024-10-09T21:11:07Z) for Minecraft 1.21.1
+[18:17:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:17:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[18:17:37] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - ClickTpa (1.7.5), Essentials (2.21.0-dev+115-6157668), LuckPerms (5.4.141), SkinsRestorer (15.4.3), UltraSetHome (1.7.9)
+[18:17:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:17:41] [ServerMain/WARN]: Failed to load world data from ./world/level.dat
+java.nio.file.NoSuchFileException: ./world/level.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
+	at net.minecraft.nbt.NbtIo.readCompressed(NbtIo.java:34) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagRaw(LevelStorageSource.java:274) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagFixed(LevelStorageSource.java:278) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:596) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:587) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at net.minecraft.server.Main.main(Main.java:206) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:17:41] [ServerMain/INFO]: Attempting to use fallback
+[18:17:43] [ServerMain/INFO]: Loaded 1290 recipes
+[18:17:43] [ServerMain/INFO]: Loaded 1399 advancements
+[18:17:43] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[18:17:43] [Server thread/INFO]: Loading properties
+[18:17:44] [Server thread/INFO]: This server is running Paper version 1.21.1-120-master@57c75a4 (2024-10-09T21:11:07Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[18:17:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:17:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:17:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:17:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[18:17:45] [Server thread/INFO]: Default game type: SURVIVAL
+[18:17:45] [Server thread/INFO]: Generating keypair
+[18:17:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:17:45] [Server thread/INFO]: Using epoll channel type
+[18:17:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:17:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:17:45] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[18:17:45] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[18:17:45] [Server thread/WARN]: Perhaps a server is already running on that port?
+[18:17:45] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to bind to port
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:286) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[18:17:45] [Server thread/ERROR]: This crash report has been saved to: /workspaces/diablocraft/servidor_minecraft/crash-reports/crash-2024-10-12_18.17.45-server.txt
+[18:17:45] [Server thread/INFO]: Stopping server
+[18:17:45] [Server thread/INFO]: Saving players
+[18:17:45] [Server thread/INFO]: Saving worlds
+[18:17:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
