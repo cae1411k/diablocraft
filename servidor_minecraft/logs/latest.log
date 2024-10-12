@@ -1,58 +1,18 @@
-[18:17:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
-[18:17:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-120-master@57c75a4 (2024-10-09T21:11:07Z) for Minecraft 1.21.1
-[18:17:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:17:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[18:17:37] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - ClickTpa (1.7.5), Essentials (2.21.0-dev+115-6157668), LuckPerms (5.4.141), SkinsRestorer (15.4.3), UltraSetHome (1.7.9)
-[18:17:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:17:41] [ServerMain/WARN]: Failed to load world data from ./world/level.dat
-java.nio.file.NoSuchFileException: ./world/level.dat
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.base/java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
-	at net.minecraft.nbt.NbtIo.readCompressed(NbtIo.java:34) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagRaw(LevelStorageSource.java:274) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagFixed(LevelStorageSource.java:278) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:596) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:587) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at net.minecraft.server.Main.main(Main.java:206) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:17:41] [ServerMain/INFO]: Attempting to use fallback
-[18:17:43] [ServerMain/INFO]: Loaded 1290 recipes
-[18:17:43] [ServerMain/INFO]: Loaded 1399 advancements
-[18:17:43] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[18:17:43] [Server thread/INFO]: Loading properties
-[18:17:44] [Server thread/INFO]: This server is running Paper version 1.21.1-120-master@57c75a4 (2024-10-09T21:11:07Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[18:17:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:17:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:17:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:17:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[18:17:45] [Server thread/INFO]: Default game type: SURVIVAL
-[18:17:45] [Server thread/INFO]: Generating keypair
-[18:17:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:17:45] [Server thread/INFO]: Using epoll channel type
-[18:17:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:17:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:17:45] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[18:17:45] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[18:17:45] [Server thread/WARN]: Perhaps a server is already running on that port?
-[18:17:45] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.IllegalStateException: Failed to bind to port
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:286) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-120-57c75a4]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[18:17:45] [Server thread/ERROR]: This crash report has been saved to: /workspaces/diablocraft/servidor_minecraft/crash-reports/crash-2024-10-12_18.17.45-server.txt
-[18:17:45] [Server thread/INFO]: Stopping server
-[18:17:45] [Server thread/INFO]: Saving players
-[18:17:45] [Server thread/INFO]: Saving worlds
-[18:17:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:58:42] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[18:58:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-119-master@7cd4f2c (2024-10-03T15:19:34Z) for Minecraft 1.21.1
+[18:58:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:58:43] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[18:58:48] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 5648ms.
+[18:58:48] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[18:58:48] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/UltraSetHome-1.7.9.jar'...
+[18:58:48] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/ConditionalEvents.jar'...
+[18:58:48] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/ClickTpa-v1.7.4.jar'...
+[18:58:49] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ClickTpa-v1.7.4.jar' in 212ms.
+[18:58:49] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ConditionalEvents.jar' in 252ms.
+[18:58:49] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/UltraSetHome-1.7.9.jar' in 581ms.
+[18:58:50] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 1410ms.
+[18:58:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[18:58:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - ClickTpa (1.7.4), ConditionalEvents (4.57.3), Essentials (2.21.0-dev+111-b54c8c1), LuckPerms (5.4.141), SkinsRestorer (15.4.3), UltraSetHome (1.7.9)
+[18:58:54] [ServerMain/WARN]: Failed to load eula.txt
+[18:58:54] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
