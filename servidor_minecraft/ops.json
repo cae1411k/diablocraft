@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "bb7c8c14-8bc8-3e25-ae73-b4f2f0b73ceb",
+    "name": "bat_m4n",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,148 +1,184 @@
-[19:00:45] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
-[19:00:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-119-master@7cd4f2c (2024-10-03T15:19:34Z) for Minecraft 1.21.1
-[19:00:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:00:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/UltraSetHome-1.7.9.jar'...
-[19:00:45] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/ConditionalEvents.jar'...
-[19:00:46] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/ClickTpa-v1.7.4.jar'...
-[19:00:46] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[19:00:46] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ClickTpa-v1.7.4.jar' in 393ms.
-[19:00:46] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ConditionalEvents.jar' in 909ms.
-[19:00:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/UltraSetHome-1.7.9.jar' in 1534ms.
-[19:00:48] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 2126ms.
-[19:00:48] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[19:00:48] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[05:07:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[05:07:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-119-master@7cd4f2c (2024-10-03T15:19:34Z) for Minecraft 1.21.1
+[05:07:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:07:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[05:07:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - ClickTpa (1.7.4), ConditionalEvents (4.57.3), Essentials (2.21.0-dev+111-b54c8c1), LuckPerms (5.4.141), SkinsRestorer (15.4.3), UltraSetHome (1.7.9)
-[19:00:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:00:55] [ServerMain/INFO]: Loaded 1290 recipes
-[19:00:55] [ServerMain/INFO]: Loaded 1399 advancements
-[19:00:55] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[19:00:55] [Server thread/INFO]: Loading properties
-[19:00:55] [Server thread/INFO]: This server is running Paper version 1.21.1-119-master@7cd4f2c (2024-10-03T15:19:34Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[19:00:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:00:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:00:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:00:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[19:00:57] [Server thread/INFO]: Default game type: SURVIVAL
-[19:00:57] [Server thread/INFO]: Generating keypair
-[19:00:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:00:57] [Server thread/INFO]: Using epoll channel type
-[19:00:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:00:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:00:57] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:01:04] [Server thread/WARN]: Legacy plugin ClickTpa v1.7.4 does not specify an api-version.
-[19:01:05] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.141
-[19:01:06] [Server thread/INFO]: [UltraSetHome] Loading server plugin UltraSetHome v1.7.9
-[19:01:06] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.3
-[19:01:06] [Server thread/INFO]: [ClickTpa] Loading server plugin ClickTpa v1.7.4
-[19:01:06] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.57.3
-[19:01:06] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
-[19:01:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:01:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.141
-[19:01:07] [Server thread/INFO]:         __    
-[19:01:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.141
-[19:01:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:01:07] [Server thread/INFO]: 
-[19:01:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:01:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:01:08] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:01:08] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:01:08] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1499ms)
-[19:01:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.3
-[19:01:09] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[19:01:10] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[19:01:11] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[19:01:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:01:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:01:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:01:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:01:11] [Server thread/INFO]: Preparing level "world"
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.3
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 4aa9140
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[19:01:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[19:01:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:01:27] [Server thread/INFO]: Time elapsed: 14555 ms
-[19:01:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:01:29] [Server thread/INFO]: Time elapsed: 2836 ms
-[19:01:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:01:30] [Server thread/INFO]: Time elapsed: 743 ms
-[19:01:30] [Server thread/INFO]: [UltraSetHome] Enabling UltraSetHome v1.7.9
-[19:01:31] [Server thread/INFO]: [ClickTpa] Enabling ClickTpa v1.7.4*
-[19:01:31] [Server thread/INFO]: [ClickTpa] ClickTPA has been loaded Successfully!
-[19:01:31] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.57.3
-[19:01:31] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.57.3
-[19:01:31] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
-[19:01:31] [Server thread/INFO]: There is a new version available. (4.57.4)
-[19:01:31] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/conditionalevents
-[19:01:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
-[19:01:32] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
-[19:01:32] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
-[19:01:32] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
-[19:01:32] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
-[19:01:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:01:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:01:32] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[19:01:32] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[19:01:32] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[19:01:32] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
-[19:01:32] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
-[19:01:33] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
-[19:01:33] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
-[19:01:33] [Server thread/INFO]: [Essentials] Using locale en
-[19:01:33] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:01:33] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:01:33] [Server thread/INFO]: [UltraSetHome] Essentials hooked successfully.
-[19:01:33] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[19:01:33] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[19:01:33] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[19:01:33] [Server thread/INFO]: [spark] Starting background profiler...
-[19:01:33] [Server thread/INFO]: Done preparing level "world" (22.068s)
-[19:01:33] [Server thread/INFO]: Running delayed init tasks
-[19:01:33] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
-[19:01:33] [Server thread/INFO]: Done (49.405s)! For help, type "help"
-[19:01:33] [Server thread/INFO]: Timings Reset
-[19:01:34] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
-[19:01:34] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[19:01:34] [Server thread/INFO]: [UltraSetHome] You are using the latest version of UltraSetHome.
-[19:03:02] [Server thread/INFO]: Stopping the server
-[19:03:02] [Server thread/INFO]: Stopping server
-[19:03:02] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
-[19:03:02] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.57.3
-[19:03:02] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.57.3
-[19:03:02] [Server thread/INFO]: [ClickTpa] Disabling ClickTpa v1.7.4
-[19:03:02] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.3
-[19:03:02] [Server thread/INFO]: [UltraSetHome] Disabling UltraSetHome v1.7.9
-[19:03:02] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.141
-[19:03:02] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:03:02] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:03:02] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:03:02] [Server thread/INFO]: Saving players
-[19:03:02] [Server thread/INFO]: Saving worlds
-[19:03:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:03:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:03:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:03:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:03:03] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 2 poi chunks in world 'world' in 0.82s
-[19:03:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:03:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:03:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:03:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:03:03] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.59s
-[19:03:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:03:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:03:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:03:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:03:04] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.49s
-[19:03:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:03:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:03:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:03:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:07:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:07:47] [ServerMain/INFO]: Loaded 1290 recipes
+[05:07:47] [ServerMain/INFO]: Loaded 1399 advancements
+[05:07:47] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[05:07:47] [Server thread/INFO]: Loading properties
+[05:07:47] [Server thread/INFO]: This server is running Paper version 1.21.1-119-master@7cd4f2c (2024-10-03T15:19:34Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[05:07:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:07:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:07:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:07:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[05:07:49] [Server thread/INFO]: Default game type: SURVIVAL
+[05:07:49] [Server thread/INFO]: Generating keypair
+[05:07:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:07:49] [Server thread/INFO]: Using epoll channel type
+[05:07:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:07:49] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:07:49] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[05:07:57] [Server thread/WARN]: Legacy plugin ClickTpa v1.7.4 does not specify an api-version.
+[05:07:57] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.141
+[05:07:57] [Server thread/INFO]: [UltraSetHome] Loading server plugin UltraSetHome v1.7.9
+[05:07:57] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.3
+[05:07:57] [Server thread/INFO]: [ClickTpa] Loading server plugin ClickTpa v1.7.4
+[05:07:57] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.57.3
+[05:07:57] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[05:07:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:07:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.141
+[05:07:58] [Server thread/INFO]:         __    
+[05:07:58] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.141
+[05:07:58] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[05:07:58] [Server thread/INFO]: 
+[05:07:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[05:07:58] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[05:07:58] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[05:07:59] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[05:07:59] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1140ms)
+[05:07:59] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.3
+[05:08:00] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[05:08:01] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[05:08:02] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:08:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:08:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:08:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:08:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:08:02] [Server thread/INFO]: Preparing level "world"
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.3
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 4aa9140
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:08:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:08:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:08:18] [Server thread/INFO]: Time elapsed: 15527 ms
+[05:08:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:08:18] [Server thread/INFO]: Time elapsed: 150 ms
+[05:08:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:08:18] [Server thread/INFO]: Time elapsed: 93 ms
+[05:08:18] [Server thread/INFO]: [UltraSetHome] Enabling UltraSetHome v1.7.9
+[05:08:19] [Server thread/INFO]: [ClickTpa] Enabling ClickTpa v1.7.4*
+[05:08:19] [Server thread/INFO]: [ClickTpa] ClickTPA has been loaded Successfully!
+[05:08:19] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.57.3
+[05:08:19] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.57.3
+[05:08:19] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[05:08:19] [Server thread/INFO]: There is a new version available. (4.57.4)
+[05:08:19] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/conditionalevents
+[05:08:19] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[05:08:20] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[05:08:20] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[05:08:20] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[05:08:20] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[05:08:20] [Server thread/INFO]: [Essentials] Converted 0/1
+[05:08:20] [Server thread/INFO]: [Essentials] Ban format update complete.
+[05:08:20] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[05:08:20] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[05:08:20] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[05:08:20] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[05:08:20] [Server thread/INFO]: [Essentials] Done converting mail list.
+[05:08:20] [Server thread/INFO]: [Essentials] #===========================================================================#
+[05:08:20] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[05:08:20] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[05:08:20] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[05:08:20] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[05:08:20] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[05:08:20] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[05:08:20] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[05:08:20] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[05:08:20] [Server thread/INFO]: [Essentials] 
+[05:08:20] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[05:08:20] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[05:08:20] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[05:08:20] [Server thread/INFO]: [Essentials] #===========================================================================#
+[05:08:20] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
+[05:08:20] [Server thread/INFO]: [Essentials] #===========================================================================#
+[05:08:20] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[05:08:20] [Server thread/INFO]: [Essentials] 
+[05:08:20] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[05:08:20] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
+[05:08:20] [Server thread/INFO]: [Essentials] 
+[05:08:20] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[05:08:20] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[05:08:20] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[05:08:20] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[05:08:20] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[05:08:20] [Server thread/INFO]: [Essentials] #===========================================================================#
+[05:08:20] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[05:08:20] [Server thread/INFO]: [Essentials] Using locale en
+[05:08:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[05:08:21] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[05:08:21] [Server thread/INFO]: [UltraSetHome] Essentials hooked successfully.
+[05:08:21] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[05:08:21] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[05:08:21] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[05:08:21] [Server thread/INFO]: [spark] Starting background profiler...
+[05:08:21] [Server thread/INFO]: Done preparing level "world" (19.313s)
+[05:08:21] [Server thread/INFO]: Running delayed init tasks
+[05:08:21] [Server thread/INFO]: Done (41.596s)! For help, type "help"
+[05:08:21] [Server thread/INFO]: Timings Reset
+[05:08:21] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[05:08:21] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[05:08:21] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[05:08:21] [Server thread/INFO]: [UltraSetHome] You are using the latest version of UltraSetHome.
+[05:08:56] [User Authenticator #0/INFO]: UUID of player bat_m4n is bb7c8c14-8bc8-3e25-ae73-b4f2f0b73ceb
+[05:08:58] [Server thread/INFO]: bat_m4n joined the game
+[05:08:58] [Server thread/INFO]: bat_m4n[/[0:0:0:0:0:0:0:1%0]:58258] logged in with entity id 42 at ([world_nether]-147.79008509632044, 43.0, 395.2774765853643)
+[05:09:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6163ms or 123 ticks behind
+[05:09:28] [Server thread/INFO]: bat_m4n issued server command: /homes
+[05:09:45] [User Authenticator #0/INFO]: UUID of player LagBan is f3e4f4c3-f193-3185-9b19-ee80779bbda0
+[05:09:46] [Server thread/INFO]: LagBan joined the game
+[05:09:46] [Server thread/INFO]: LagBan[/[0:0:0:0:0:0:0:1%0]:58186] logged in with entity id 380 at ([world]1813.967746327822, 70.0, 1709.9792079890044)
+[05:10:07] [Server thread/INFO]: Named entity Salmon['McFlurry'/453, uuid='e90812ea-cf97-4aaa-add4-5ea72439077e', l='ServerLevel[world]', x=1817.35, y=70.37, z=1741.35, cpos=[113, 108], tl=224323, v=true] died: McFlurry suffocated in a wall
+[05:10:44] [Server thread/INFO]: Nothing changed. The player already is an operator
+[05:10:51] [Server thread/INFO]: bat_m4n issued server command: /tp LagBan
+[05:10:52] [Server thread/INFO]: LagBan has reached the goal [Postmortal]
+[05:10:52] [Server thread/INFO]: Villager Villager['Librarian'/502, uuid='cbdd866d-6a7d-4fda-9a7f-0c2dc140c45d', l='ServerLevel[world]', x=1808.58, y=71.94, z=1746.70, cpos=[113, 109], tl=1885444, v=true] died, message: 'Librarian was blown up by Creeper'
+[05:10:52] [Server thread/INFO]: bat_m4n has reached the goal [Postmortal]
+[05:12:10] [Server thread/INFO]: Stopping the server
+[05:12:10] [Server thread/INFO]: Stopping server
+[05:12:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[05:12:10] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.57.3
+[05:12:10] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.57.3
+[05:12:10] [Server thread/INFO]: [ClickTpa] Disabling ClickTpa v1.7.4
+[05:12:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.3
+[05:12:10] [Server thread/INFO]: [UltraSetHome] Disabling UltraSetHome v1.7.9
+[05:12:10] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.141
+[05:12:10] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:12:10] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:12:10] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:12:10] [Server thread/INFO]: Saving players
+[05:12:10] [Server thread/INFO]: LagBan lost connection: Server closed
+[05:12:10] [Server thread/INFO]: LagBan left the game
+[05:12:10] [Server thread/INFO]: bat_m4n lost connection: Server closed
+[05:12:10] [Server thread/INFO]: bat_m4n left the game
+[05:12:10] [Server thread/INFO]: Saving worlds
+[05:12:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:12:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:12:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:12:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:12:12] [Server thread/INFO]: [ChunkHolderManager] Saved 2594 block chunks, 777 entity chunks, 20 poi chunks in world 'world' in 2.12s
+[05:12:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:12:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:12:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:12:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:12:13] [Server thread/INFO]: [ChunkHolderManager] Saved 445 block chunks, 120 entity chunks, 0 poi chunks in world 'world_nether' in 0.32s
+[05:12:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:12:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:12:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:12:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:12:13] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[05:12:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:12:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:12:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:12:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
